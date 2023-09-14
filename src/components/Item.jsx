@@ -22,10 +22,10 @@ function Item({ team, image, description, link }) {
           <img src={image} alt={team} className='h-96 w-96 object-cover mx-auto'/>
           <Card className="rounded-t-none rounded-b-2xl">
             <CardHeader>
-              <CardTitle className="text-center">{team}</CardTitle>
+              <CardTitle className="text-center font-bold">{team}</CardTitle>
             </CardHeader>
             <CardContent className="flex flex-col items-center center">
-              <p className="text-center text-lg">{description}</p>
+              <p className="text-center text-lg font-bold">{description}</p>
               <Button className='mx-auto mt-4'>
                 <a href={link}>National Team Page</a>
               </Button>
