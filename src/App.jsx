@@ -86,7 +86,7 @@ let teams = [
 function App() {
 
   return (
-    <div className="bg-slate-600">
+    <div className="bg-slate-600 pb-8">
        <Header />
         <div className="flex flex-row flex-wrap gap-8 justify-evenly items-center mx-5">
           {teams.map(({team, image, description, link}, index) => (
