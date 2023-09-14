@@ -20,7 +20,7 @@ function Item({ team, image, description, link }) {
     <>
         <div className='mt-10 h-4/5'>
           <img src={image} alt={team} className='h-96 w-96 object-cover mx-auto'/>
-          <Card>
+          <Card className="rounded-t-none rounded-b-2xl">
             <CardHeader>
               <CardTitle className="text-center">{team}</CardTitle>
             </CardHeader>
